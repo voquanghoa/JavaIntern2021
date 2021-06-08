@@ -25,6 +25,8 @@ public class DemoTest {
         assertEquals(demo.max(8, 3, 7), 8);
         assertEquals(demo.max(8, 10, 7), 10);
         assertEquals(demo.max(8, 10, 70), 70);
+        assertEquals(demo.max(8, 5, 70), 70);
+        assertEquals(demo.max(8, 60, 0), 60);
     }
 
 }
