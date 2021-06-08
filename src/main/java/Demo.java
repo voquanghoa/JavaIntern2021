@@ -16,7 +16,7 @@ public class Demo {
             return x;
         }
 
-        if(y < z){
+        if(y > z){
             return y;
         }
 
