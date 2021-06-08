@@ -3,12 +3,9 @@ public class Exercise01 {
         if(a * b == 0){
             return a + b;
         }
-
         if(a > b){
             return ucln(a % b, b);
         }
-
         return ucln(a, b % a);
-
     }
 }
